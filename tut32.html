@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute and mth child pesudo selectors</title>
+    <style>
+        .container{
+            display: block;
+            width: 100px;
+            margin: auto;
+         
+        }
+        input{
+             display: block; 
+        }
+        input[type='text']{
+            padding: 23px;
+            border: 2px solid red;
+        }
+        a[target='_blank']{
+            font-size: 15px;
+        }
+        /* li:nth-child(3){
+            color: aquamarine;
+        } */
+        li:nth-child(2n+0){
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><a href="http://google.com" target="_blank">Go to google</a></h2>
+        <form action="" class="form-control">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+            <input type="email" placeholder="Enter your email">
+            <input type="submit" value="Submit">
+        </form>
+        <ul>
+            <li class="item" id="item-1">item1</li>
+            <li class="item" id="item-2">item2</li>
+            <li class="item" id="item-3">item3</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-5">item5</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

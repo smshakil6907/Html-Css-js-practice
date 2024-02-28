@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Box shadow and text shadow</title>
+        <style>
+            .container{
+                display: flex;
+            }
+            p{
+                border: 2px solid red;
+                padding: 23px 12px;
+                margin: 5px;
+                background-color: aquamarine;
+                /* box-shadow: under color */
+                /* box-shadow: 6px 8px green; */
+
+                /* box-shadow: up color */
+                /* box-shadow: -6px -8px green; */
+
+                /* box-shadow: under, color ,blur radious */
+                /* box-shadow: 6px 8px 10px green; */
+
+                /* box-shadow: up, color ,blur radious */
+                /* box-shadow: -6px -8px 10px green; */
+
+                /* box-shadow: under, color ,blur radious spread radious */
+                /* box-shadow: 6px 8px 10px 10px green; */
+
+                /* vitorer dike shadow barano */
+                /* box-shadow: inset 3px 5px green; */
+
+                box-shadow: 2px 3px green, 4px 5px red;
+
+
+            }
+            .card h2{
+                text-shadow:2px 3px rgb(124, 136, 124) ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card" id="card-1">
+                <h2>Card1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                    natus quaerat magni aliquam excepturi modi reiciendis nam.
+                    At aliquid facere mollitia odio laudantium porro non nulla.
+                    A explicabo expedita ipsam, ipsa dolor officiis
+                    assumenda</p>
+            </div>
+            <div class="card" id="card-2">
+                <h2>Card2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                    natus quaerat magni aliquam excepturi modi reiciendis nam.
+                    At aliquid facere mollitia odio laudantium porro non nulla.
+                    A explicabo expedita ipsam, ipsa dolor officiis
+                    assumenda</p>
+            </div>
+            <div class="card" id="card-3">
+                <h2>Card3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                    natus quaerat magni aliquam excepturi modi reiciendis nam.
+                    At aliquid facere mollitia odio laudantium porro non nulla.
+                    A explicabo expedita ipsam, ipsa dolor officiis
+                    assumenda</p>
+            </div>
+        </div>
+
+    </body>
+</html>

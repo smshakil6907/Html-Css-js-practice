@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Before and after pseudo selectors</title>
+        <style>
+            body{
+                padding: 0px;
+                margin: 0px;
+                background-color: black;
+                color: rgb(11, 141, 37);
+                background: url('https://placekitten.com/1200/800');
+                
+            }
+            /* header{
+                opacity: 0.5;
+            } */
+            .navigation{
+                display: flex;
+                font-size: 20px;
+
+            }
+            li{
+                list-style: none;
+                padding: 10px 13px;
+
+            }
+            section{
+                /* border: 2px solid red; */
+                height: 250px;
+                margin: 34px 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            /* section::before{
+                content:"This is a content"
+            } */
+            h3{
+                font-size: 3rem;
+            }
+            p{
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="navigation">
+                    <li class="item">Home </li>
+                    <li class="item">About</li>
+                    <li class="item">Services</li>
+                    <li class="item">Contact Us</li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h3>wealcome to codding world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                asperiores accusantium harum eius ipsam, quia, illum error
+                quae explicabo voluptatibus dicta deleniti corporis maiores
+                quas iure earum nesciunt et id fugit soluta. Commodi,
+                fuga</p>
+        </section>
+        <hr>
+
+    </body>
+</html>
